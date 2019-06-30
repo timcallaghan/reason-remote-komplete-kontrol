@@ -6,19 +6,12 @@ Map Version	1.0.0
 
 
 Scope	Propellerheads	Reason Document
-Define Group	Wheel	Coarse	Fine
-Define Group	Pos	Song	Left	Right
 Map	Play Button		Play
 Map	Stop Button		Stop
 Map	Record Button		Record
 Map	Loop Button		Loop On/Off
 Map	Left Button		Bar Position Down
 Map	Right Button		Bar Position Up
-Map	Jog Wheel		Song Position	15360		Coarse	Song
-Map	Jog Wheel		Song Position	3840		Fine	Song
-Map	Jog Wheel		Left Loop	15360		Coarse	Left
-Map	Jog Wheel		Left Loop	3840		Fine	Left
-Map	Jog Wheel		Right Loop	15360		Coarse	Right
-Map	Jog Wheel		Right Loop	3840		Fine	Right
+Map	Jog Wheel		Song Position	3840
 Map	Up Button		Target Previous Track
 Map	Down Button		Target Next Track

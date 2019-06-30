@@ -68,4 +68,4 @@ Use the 4-Directional Push Encoder on the Komplete Kontrol keyboard to do the fo
 * Push Down - Switch to the next sequencer track
 * Push Right - Move the Song Position marker 1 bar forward in the sequencer
 * Push Left - Move the Song Position marker 1 bar backward in the sequencer
-* Rotate - Move the Song Position marker 1/4 bar in the rotation direction
+* Rotate - Move the Song Position marker 1/16th note in the rotation direction
