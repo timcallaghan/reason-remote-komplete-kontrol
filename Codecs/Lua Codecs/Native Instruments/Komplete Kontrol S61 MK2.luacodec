@@ -1,0 +1,13 @@
+version={1,0,0}
+
+function remote_supported_control_surfaces()
+	local surfaces =
+		{
+			{ manufacturer="Native Instruments", model="Komplete Kontrol S61 MK2",
+				source="Komplete Kontrol S61 MK2.lua", picture="Komplete Kontrol S61 MK2.png",
+				in_ports={{description="Input"}}, 
+				out_ports={{description="Output"}},
+				setup_info_text="To use Komplete Kontrol S61 MK2 with Remote ensure you choose KOMPLETE KONTROL - 1 for MIDI in/out." },
+		}
+	return surfaces
+end
