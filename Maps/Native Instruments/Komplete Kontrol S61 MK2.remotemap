@@ -152,3 +152,161 @@ Map	Knob 8		Master Level
 Map	Button 1		Filter On/Off
 Map	Button 3		LFO Sync Enable
 
+Scope	Propellerheads	Redrum Drum Computer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Drum 1 Level
+Map	Knob 2		Drum 2 Level
+Map	Knob 3		Drum 3 Level
+Map	Knob 4		Drum 4 Level
+Map	Knob 5		Drum 5 Level
+Map	Knob 6		Drum 6 Level
+Map	Knob 7		Drum 7 Level
+Map	Knob 8		Drum 8 Level
+Map	Knob 9		Drum 9 Level
+Map	Knob 10		Drum 10 Level
+
+Scope	Propellerheads	Kong Drum Designer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Drum 1 Level
+Map	Knob 2		Drum 2 Level
+Map	Knob 3		Drum 3 Level
+Map	Knob 4		Drum 4 Level
+Map	Knob 5		Drum 5 Level
+Map	Knob 6		Drum 6 Level
+Map	Knob 7		Drum 7 Level
+Map	Knob 8		Drum 8 Level
+Map	Knob 9		Drum 9 Level
+Map	Knob 10		Drum 10 Level
+Map	Knob 11		Drum 11 Level
+Map	Knob 12		Drum 12 Level
+Map	Knob 13		Drum 13 Level
+Map	Knob 14		Drum 14 Level
+Map	Knob 15		Drum 15 Level
+Map	Knob 16		Drum 16 Level
+
+Scope	Propellerheads	RV7000 Advanced Reverb
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Decay
+Map	Knob 2		HF Damp
+Map	Knob 3		Hi EQ
+Map	Knob 4		Dry/Wet
+Map	Button 1		EQ On/Off
+Map	Button 2		Gate On/Off
+
+Scope	Propellerheads	Scream 4 Distortion
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Damage Control
+Map	Knob 2		Damage Type
+Map	Knob 3		Parameter 1
+Map	Knob 4		Parameter 2
+Map	Knob 5		Cut Lo
+Map	Knob 6		Cut Mid
+Map	Knob 7		Cut Hi
+Map	Knob 8		Master Level
+Map	Button 1		Damage On/Off
+Map	Button 2		Cut On/Off
+Map	Button 3		Body On/Off
+
+Scope	Propellerheads	BV512 Digital Vocoder
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Band Count
+Map	Knob 2		Vocoder/Equalizer
+Map	Knob 3		Shift
+Map	Knob 4		Attack
+Map	Knob 5		Decay
+Map	Knob 6		HF Emphasis
+Map	Knob 7		Dry/Wet
+Map	Button 1		Hold
+
+Scope	Propellerheads	Neptune Pitch Adjuster
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 1		Low Freq Input
+Map	Button 2		Wide Vibrato
+Map	Button 3		Live Mode
+Map	Button 4		Pitch Adjust On/Off
+Map	Button 5		Transpose On/Off
+Map	Button 6		Formant On/Off
+Map	Knob 1		Vibrato Rate
+Map	Knob 2		Correction Speed
+Map	Knob 3		Preserve Expression
+Map	Knob 4		Semitones
+Map	Knob 5		Cent
+Map	Knob 6		Formant Shift
+Map	Knob 7		Pitched Signal Level
+Map	Knob 8		Voice Synth Level
+
+Scope	Propellerheads	MClass Equalizer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 1		Low Cut Enable
+Map	Button 2		Low Shelf Enable
+Map	Button 3		Parametric 1 Enable
+Map	Button 4		Parametric 2 Enable
+Map	Button 5		Hi Shelf Enable
+Map	Knob 1		Low Shelf Frequency
+Map	Knob 2		Parametric 1 Frequency
+Map	Knob 3		Parametric 2 Frequency
+Map	Knob 4		Hi Shelf Frequency
+Map	Knob 5		Low Shelf Gain
+Map	Knob 6		Parametric 1 Gain
+Map	Knob 7		Parametric 2 Gain
+Map	Knob 8		Hi Shelf Gain
+Map	Knob 9		Low Shelf Q
+Map	Knob 10		Parametric 1 Q
+Map	Knob 11		Parametric 2 Q
+Map	Knob 12		Hi Shelf Q
+
+Scope	Propellerheads	MClass Stereo Imager
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Low Width
+Map	Knob 2		X-Over Frequency
+Map	Knob 3		High Width
+Map	Knob 4		Solo Mode
+Map	Button 1		Separate Out Mode
+
+Scope	Propellerheads	MClass Compressor
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Input Gain
+Map	Knob 2		Threshold
+Map	Knob 3		Ratio
+Map	Knob 4		Attack
+Map	Knob 5		Release
+Map	Knob 6		Output Gain
+Map	Button 1		Soft Knee
+Map	Button 2		Sidechain Solo
+Map	Button 3		Adapt
+Map	Button 4		Sidechain Active
+
+Scope	Propellerheads	MClass Maximizer
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Input Gain
+Map	Knob 2		Attack Speed
+Map	Knob 3		Release Speed
+Map	Knob 4		Output Gain
+Map	Knob 5		Soft Clip Amount
+Map	Button 1		Limiter Enable
+Map	Button 2		Look Ahead Enable
+Map	Button 3		Soft Clip Enable
+Map	Button 4		Output Level Meter Mode
+
+Scope	Propellerheads	RV-7 Digital Reverb
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Algorithm
+Map	Knob 2		Size
+Map	Knob 3		Decay
+Map	Knob 4		Damping
+Map	Knob 5		Dry/Wet
+
+Scope	Propellerheads	DDL-1 Digital Delay Line
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		DelayTime (steps)
+Map	Knob 2		DelayTime (ms)
+Map	Knob 3		Feedback
+Map	Knob 4		Pan
+Map	Knob 5		Dry/Wet Balance
+Map	Button 1		Unit
+Map	Button 2		Step Length
+
+Scope	Propellerheads	D-11 Foldback Distortion
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Amount
+Map	Knob 2		Foldback
