@@ -1,0 +1,13 @@
+version={1,0,0}
+
+function remote_supported_control_surfaces()
+	local surfaces =
+		{
+			{ manufacturer="Native Instruments", model="Komplete Kontrol MCU",
+				source="Komplete Kontrol MCU.lua", picture="Komplete Kontrol MCU.png",
+				in_ports={{description="Input"}}, 
+				out_ports={{description="Output"}},
+				setup_info_text="To use Komplete Kontrol MCU with Remote ensure you have the latest firmware that adds MCU support (KOMPLETE KONTROL >= 2.1.3). MCU support only exists for the S-Series Mk2, A-Series, and M32 keyboards. Ensure you choose Komplete Kontrol DAW - 1 for MIDI in/out." },
+		}
+	return surfaces
+end
