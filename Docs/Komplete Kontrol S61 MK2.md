@@ -70,6 +70,17 @@ The Touch Strip is also exposed via the standard MIDI Expression message. For ex
 
 All of the Reason 10 stock devices have been mapped. Since the mapping is 2-way, an easy way to discover the mapping is to tweak a parameter on the device and then observe the hardware keyboard displays to see if anything changes.
 
-If a particular control is not mapped a viable workaround is to place the device in a Combinator.  The four buttons and four knobs of the Combinator have been mapped to the first four buttons and knobs on the keyboard. You can then use the programmer in the Combinator to hook up the Combinator buttons/knobs to the specific device parameters you wish to control.
-
 Note that due to the nature of MIDI control surface mapping many of the decisions about which hardware control should be mapped to which software control are arbitrary and opinionated.  There is no reason why these maps can't be changed if you think it could be done better. Feel free to suggest improvements!
+
+## Tips
+
+### Custom maps
+
+If a particular control is not mapped a viable workaround is to place the device in a Combinator.  The four buttons and four knobs of the Combinator have been mapped to the first four buttons and knobs on the S61 Mk2 keyboard. You can then use the programmer in the Combinator to hook up the Combinator buttons/knobs to the specific device parameters you wish to control.
+
+### Half-rack Effects
+All of the half-rack effects don't have master keyboard input focus by default. This means you wont be able to control their paramters by simply clicking on the effect in the rack.  However you can right-click a half-rack effect and select `Create Track for ...`. Then you can set master keyboard focus to the effect's sequencer track and contol it from hardware buttons/knobs.
+
+### Controlling the Mixer channel levels
+
+If you want to use the knobs on the S61 Mk2 to simultaneously control mix channel levels you can set master keyboard focus to the Master Section in the rack.  Once you do this the knobs will control the fader levels for 8 channels at a time in the mixer.  Use buttons 1 and 2 on the S61 Mk2 to move backwards/forwards through the mixer channels 8 at a time.
