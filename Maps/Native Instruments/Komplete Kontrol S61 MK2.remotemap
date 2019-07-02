@@ -221,6 +221,31 @@ Map	Button 3		LFO Sync Enable
 /// Effects
 /////////////////////////////
 
+Scope	Propellerheads	Alligator
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 1		Pattern Enable
+Map	Button 2		Shuffle
+Map	Knob 1 		Pattern
+Map	Knob 2		Resolution
+Map	Knob 3		Shift
+Map	Button 3		Gate 1 Trig
+Map	Button 4		Gate 2 Trig
+Map	Button 5		Gate 3 Trig
+Map	Knob 4		Amp Env Attack
+Map	Knob 5		Amp Env Decay
+Map	Knob 6		Amp Env Release
+Map	Knob 7		LFO Waveform
+Map	Knob 8		LFO Freq
+Map	Button 6		LFOSync
+Map	Knob 9		Filter Env Attack
+Map	Knob 10		Filter Env Decay
+Map	Knob 11		Filter Env Release
+Map	Knob 12		Delay Time
+Map	Knob 13		Delay Feedback
+Map	Knob 14		Delay Pan
+Map	Knob 15		Phaser Rate
+Map	Knob 16		Phaser Feedback
+
 Scope	Propellerheads	Scream 4 Distortion
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 Map	Knob 1		Damage Control
