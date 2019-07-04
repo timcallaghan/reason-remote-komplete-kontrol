@@ -184,6 +184,27 @@ Map	Button 4		Filter B Env
 Map	Button 5		Filter Env Invert
 Map	Button 6		Shaper On/Off
 
+Scope	Propellerhead Software	se.propellerheads.radicalpiano
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Character
+Map	Knob 2		Microphone 1 Type
+Map	Knob 3		Microphone and Instrument Blend
+Map	Knob 4		Microphone 2 Type
+Map	Knob 5		Ambience Level
+Map	Knob 6		Compression Amount
+Map	Knob 7		Stereo Width
+Map	Knob 8		Master Volume
+Map	Knob 9		Vel Response Curve
+Map	Knob 10		Pedal Level
+Map	Knob 11		Symp Res Level
+Map	Knob 12		Symp Res Release Time
+Map	Button 1		EQ On/Off
+Map	Knob 13		EQ Lo Gain
+Map	Knob 14		EQ Mid Gain
+Map	Knob 15		EQ Hi Gain
+Map	Knob 16		Ambience Type
+Map	Touch Strip		Sustain Pedal
+
 Scope	Propellerheads	ID8 Instrument Device
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 Map	Button 7		Select Previous Category
@@ -217,9 +238,80 @@ Map	Button 1		Filter On/Off
 Map	Button 2		Filter Env Invert
 Map	Button 3		LFO Sync Enable
 
+Scope	Propellerhead Software	se.propellerheads.externalmidiinstrument
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		CC 7
+Map	Knob 2		CC 8
+Map	Knob 3		CC 9
+Map	Knob 4		CC 10
+Map	Knob 5		CC 12
+Map	Knob 6		CC 13
+Map	Knob 7		CC 70
+Map	Knob 8		CC 71
+Map	Knob 9		CC 72
+Map	Knob 10		CC 73
+Map	Knob 11		CC 74
+Map	Knob 12		CC 75
+Map	Knob 13		CC 76
+Map	Knob 14		CC 77
+Map	Knob 15		CC 78
+Map	Knob 16		CC 79
+Map	Button 5		Previous MIDI Channel
+Map	Button 6		Next MIDI Channel
+Map	Button 7		Previous MIDI Program
+Map	Button 8		Next MIDI Program
+
 /////////////////////////////
 /// Effects
 /////////////////////////////
+
+Scope	Propellerheads	Pulveriser
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Squash
+Map	Knob 2		Dirt
+Map	Knob 3 		Release
+Map	Knob 4		Tone
+Map	Button 1		Routing
+Map	Knob 5		Filter Mode
+Map	Knob 6		Filter Frequency
+Map	Knob 7		Peak
+Map	Button 2		Sync
+Map	Button 3		Tremor Spread
+Map	Knob 8		Volume
+Map	Knob 9		Tremor to Frequency
+Map	Knob 10		Tremor Rate
+Map	knob 11		Tremor Lag
+Map	Button 4		Follower Trig
+Map	Knob 12		Follower Threshold
+Map	Knob 13		Follower Attack
+Map	Knob 14		Follower Release
+Map	Knob 15		Tremor to Volume
+Map	Knob 16		Blend
+
+Scope	Propellerheads	The Echo
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 1		Trig
+Map	Knob 1		Roll Enabled
+Map	Knob 2		Delay Time
+Map	Knob 3 		Right Ch Time Offset
+Map	Button 2		Keep Pitch
+Map	Button 3		Sync
+Map	Button 4		Ping-Pong Mode
+Map	Knob 4		Ping-Pong Pan
+Map	Knob 5		Feedback
+Map	Knob 6		Right Ch Feedback Offset
+Map	Knob 7		Drive Amount
+Map	Knob 8		Drive Type
+Map	Button 5		Diffuse On
+Map	Knob 9		Diffuse Spread
+Map	Knob 10		Diffuse Amount
+Map	Button 6		Filter On
+Map	Knob 11		Filter Frequency
+Map	Knob 12		Filter Resonance
+Map	Knob 13		LFO Rate
+Map	Knob 14		LFO Amount
+Map	Knob 15		Dry/Wet Balance
+Map	Knob 16		Ducking
 
 Scope	Propellerheads	Alligator
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
@@ -245,6 +337,64 @@ Map	Knob 13		Delay Feedback
 Map	Knob 14		Delay Pan
 Map	Knob 15		Phaser Rate
 Map	Knob 16		Phaser Feedback
+
+Scope	Propellerhead Software	se.propellerheads.Audiomatic
+Map	Knob 1		Input Gain
+Map	Knob 2		Preset
+Map	Knob 3		Transform
+Map	Knob 4		Dry Wet
+Map	Knob 5		Volume
+
+Scope	Propellerhead Software	se.propellerheads.ReasonAmp
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Amp Switch
+Map	Knob 2		Cab Switch
+Map	Button 1		Boost
+Map	Knob 3		Gate
+Map	Knob 4		Gain
+Map	Knob 5		Bass
+Map	Knob 6		Mid
+Map	Knob 7		Treble
+Map	Knob 8		Poweramp Gain
+Map	Knob 16		Volume
+
+Scope	Propellerhead Software	se.propellerheads.ReasonBassAmp
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Amp Switch
+Map	Knob 2		Cab Switch
+Map	Button 1		Ultra Lo
+Map	Button 2		Ultra Hi
+Map	Knob 3		Drive
+Map	Knob 4		Bass
+Map	Knob 5		Middle
+Map	Knob 6		Mid Freq
+Map	Knob 7		Treble
+Map	Knob 8		Volume
+
+Scope	Propellerhead Software	se.propellerheads.Synchronous
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 1		Dist On
+Map	Button 2		Filter On
+Map	Button 3		Delay On
+Map	Button 4		Reverb On
+Map	Button 5		Delay Tempo Sync
+Map	Button 6		Level InOut
+Map	Knob 1		Dist Amount
+Map	Knob 2		Dist Character
+Map	Knob 3		Filter Freq
+Map	Knob 4		Filter Reso
+Map	Knob 5		Delay  Amount
+Map	Knob 6		Reverb Amount
+Map	Knob 7		DryWet
+Map	Knob 8		Master Level
+Map	Knob 9		Delay Time
+Map	Knob 10		Delay Synched Time
+Map	Knob 11		Delay Feedback
+Map	Knob 12		Delay Pan
+Map	Knob 13		Reverb Decay
+Map	Knob 14		Reverb Size
+Map	Knob 15		Reverb Damp
+Map	Knob 16		Level
 
 Scope	Propellerheads	Scream 4 Distortion
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
@@ -440,6 +590,32 @@ Map	Button 1		Button 1
 Map	Button 2		Button 2
 Map	Button 3		Button 3
 Map	Button 4		Button 4
+
+Scope	Propellerhead Software	se.propellerheads.Pulsar
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 1		LFO1 Env Sync
+Map	Button 2		LFO1 Tempo Sync
+Map	Knob 1		LFO1 Rate Free
+Map	Knob 2		LFO1 Rate Synced
+Map	Knob 3		LFO1 Waveform
+Map	Knob 4		LFO1 Level
+Map	Knob 5		LFO1 Phase
+Map	Knob 6		LFO1 Shuffle
+Map	Knob 7		LFO1 Lag
+Map	Knob 8		Keyboard Track
+Map	Knob 9		LFO2 to LFO1 Rate
+Map	Knob 10		LFO2 to LFO1 Level
+Map	Button 3		Sync LFO1 to LFO2
+Map	Knob 11		LFO2 Rate Synced
+Map	Knob 12		LFO2 Rate Free
+Map	Button 4		LFO2 Enabled
+Map	Button 5		LFO2 Tempo Sync
+Map	Knob 13		LFO2 Waveform
+Map	Knob 14		LFO2 Level
+Map	Button 6		LFO2 Triggers Envelope
+Map	Button 7		Trig
+Map	Knob 15		Attack
+Map	Knob 16		Release
 
 Scope	Propellerheads	RPG-8 Monophonic Arpeggiator
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
