@@ -128,6 +128,56 @@ Map	Knob 8		Master Level
 Map	Button 1		Filter On/Off
 Map	Button 3		LFO Sync Enable
 
+Scope	Propellerhead Software	se.propellerheads.Europa
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 1		Osc1 On
+Map	Button 2		Osc2 On
+Map	Button 3		Osc3 On
+Map	Button 4		Osc1 Filter On
+Map	Button 5		Osc2 Filter On
+Map	Button 6		Osc3 Filter On
+Map	Knob 1		OscSel
+Map	Knob 2		Osc1 Shape
+Map	Knob 3		Osc1 Filter Freq
+Map	Knob 4		Osc2 Shape
+Map	Knob 5		Osc2 Filter Freq
+Map	Knob 6		Osc3 Shape
+Map	Knob 7		Osc3 Filter Freq
+Map	Knob 8		Master Volume
+Map	Knob 9		Osc1 Level
+Map	Knob 10		Osc2 Level
+Map	Knob 11		Osc3 Level
+Map	Knob 12		Filter Freq
+Map	Knob 13		Filter Reso
+Map	Knob 14		Dist Amount
+Map	Knob 15		Delay Amount
+Map	Knob 16		Reverb Amount
+
+Scope	Propellerhead Software	se.propellerheads.Grain
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Position
+Map	Knob 2		End Pos
+Map	Knob 3		Scroll
+Map	Knob 4		Zoom
+Map	Knob 5		Speed
+Map	Knob 6		Jitter
+Map	Knob 7		Oct
+Map	Knob 8		Master Volume
+Map	Button 1		Sample To Filter
+Map	Button 2		Osc On
+Map	Button 3		Osc To Filter
+Map	Knob 9		Sample Level
+Map	Knob 10		Osc Wave
+Map	Knob 11		Osc Mod
+Map	Knob 12		Osc Level
+Map	Knob 13		Filter Type
+Map	Knob 14		Filter Freq
+Map	Knob 15		Filter Reso
+Map	Knob 16		Filter Env2
+Map	Button 4		Dist On
+Map	Button 5		Delay On
+Map	Button 6		Reverb On
+
 Scope	Propellerheads	Thor Polysonic Synthesizer	
 Define Group	Keyboard Shortcut Variations	Filters	oscillators				
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
@@ -184,6 +234,15 @@ Map	Button 4		Filter B Env
 Map	Button 5		Filter Env Invert
 Map	Button 6		Shaper On/Off
 
+Scope	Propellerheads	ID8 Instrument Device
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 7		Select Previous Category
+Map	Button 8		Select Next Category
+Map	Knob 1		Sound
+Map	Knob 2		Parameter 1
+Map	Knob 3		Parameter 2
+Map	Knob 4		Volume
+
 Scope	Propellerhead Software	se.propellerheads.radicalpiano
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 Map	Knob 1		Character
@@ -205,14 +264,77 @@ Map	Knob 15		EQ Hi Gain
 Map	Knob 16		Ambience Type
 Map	Touch Strip		Sustain Pedal
 
-Scope	Propellerheads	ID8 Instrument Device
+Scope	Propellerhead Software	se.propellerheads.Klang
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
-Map	Button 7		Select Previous Category
-Map	Button 8		Select Next Category
-Map	Knob 1		Sound
-Map	Knob 2		Parameter 1
-Map	Knob 3		Parameter 2
-Map	Knob 4		Volume
+Map	Button 1		Filter_On
+Map	Knob 1		Filter_Type
+Map	Knob 2		Filter_Cutoff
+Map	Knob 3		Filter_Reso
+Map	Knob 4		Filter_Env
+Map	Knob 5		Filter_Velocity
+Map	Knob 6		Filter_KeyFollow
+Map	Knob 7		Amp_Velocity
+Map	Knob 8		Master_Volume
+Map	Button 2		Delay_On
+Map	Button 3		Delay_Sync
+Map	Button 4		Delay_PingPong
+Map	Knob 9		Delay_Time
+Map	Knob 10		Synced_Delay_Time
+Map	Knob 11		Delay_Feedback
+Map	Knob 12		Delay_Damp
+Map	Knob 13		Delay Amount
+Map	Button 5		Reverb_On
+Map	Knob 14		Reverb_Time
+Map	Knob 15		Reverb_PreDelay
+Map	Knob 16		Reverb Amount
+
+Scope	Propellerhead Software	se.propellerheads.Pangea
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 1		Filter_On
+Map	Knob 1		Filter_Type
+Map	Knob 2		Filter_Cutoff
+Map	Knob 3		Filter_Reso
+Map	Knob 4		Filter_Env
+Map	Knob 5		Filter_Velocity
+Map	Knob 6		Filter_KeyFollow
+Map	Knob 7		Amp_Velocity
+Map	Knob 8		Master_Volume
+Map	Button 2		Delay_On
+Map	Button 3		Delay_Sync
+Map	Button 4		Delay_PingPong
+Map	Knob 9		Delay_Time
+Map	Knob 10		Synced_Delay_Time
+Map	Knob 11		Delay_Feedback
+Map	Knob 12		Delay_Damp
+Map	Knob 13		Delay_Amount
+Map	Button 5		Reverb_On
+Map	Knob 14		Reverb_Time
+Map	Knob 15		Reverb_PreDelay
+Map	Knob 16		Reverb_Amount
+
+Scope	Propellerhead Software	se.propellerheads.Humana
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 1		Filter_On
+Map	Knob 1		Filter_Type
+Map	Knob 2		Filter_Cutoff
+Map	Knob 3		Filter_Reso
+Map	Knob 4		Filter_Env
+Map	Knob 5		Filter_Velocity
+Map	Knob 6		Filter_KeyFollow
+Map	Knob 7		Amp_Velocity
+Map	Knob 8		Master_Volume
+Map	Button 2		Delay_On
+Map	Button 3		Delay_Sync
+Map	Button 4		Delay_PingPong
+Map	Knob 9		Delay_Time
+Map	Knob 10		Synced_Delay_Time
+Map	Knob 11		Delay_Feedback
+Map	Knob 12		Delay_Damp
+Map	Knob 13		Delay_Amount
+Map	Button 5		Reverb_On
+Map	Knob 14		Reverb_Time
+Map	Knob 15		Reverb_PreDelay
+Map	Knob 16		Reverb_Amount
 
 Scope	Propellerheads	NN-XT Advanced Sampler
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
