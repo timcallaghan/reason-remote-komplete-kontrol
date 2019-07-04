@@ -234,6 +234,18 @@ Map	Button 4		Filter B Env
 Map	Button 5		Filter Env Invert
 Map	Button 6		Shaper On/Off
 
+Scope	Propellerhead Software	se.propellerheads.Monotone
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 1		Osc1 Wave
+Map	Knob 2		Osc Mix
+Map	Knob 3		Osc2 Wave
+Map	Knob 4		Filter Drive
+Map	Knob 5		Filter Freq
+Map	Knob 6		Filter Reso
+Map	Knob 7		Chorus Amount
+Map	Knob 8		Delay Amount
+Map	Button 1		Delay Pingpong
+
 Scope	Propellerheads	ID8 Instrument Device
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
 Map	Button 7		Select Previous Category
@@ -242,6 +254,13 @@ Map	Knob 1		Sound
 Map	Knob 2		Parameter 1
 Map	Knob 3		Parameter 2
 Map	Knob 4		Volume
+
+Scope	Propellerhead Software	se.propellerheads.DMFC
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Knob 5		Master_Pitch
+Map	Knob 6		Master_Reverb
+Map	Knob 7		Master_Filter
+Map	Knob 8		Master_Volume
 
 Scope	Propellerhead Software	se.propellerheads.radicalpiano
 //	Control Surface Item	Key	Remotable Item	Scale	Mode
@@ -789,3 +808,45 @@ Map	Knob 4		Channel 4 Level
 Map	Knob 5		Channel 5 Level
 Map	Knob 6		Channel 6 Level
 Map	Knob 8		Master Level			
+
+/////////////////////////////
+/// Players
+/////////////////////////////
+
+Scope	Propellerhead Software	se.propellerheads.Arpeggio
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 1		On
+Map	Button 2		Arpeggio On 1
+Map	Button 3		Arpeggio On 2
+Map	Button 4		Repeat 1
+Map	Button 5		Repeat 2
+Map	Button 6		Hold
+Map	Knob 1		Rate 1
+Map	Knob 2		Octaves 1
+Map	Knob 3		Direction 1
+Map	Knob 4		Rate 2
+Map	Knob 5		Octaves 2
+Map	Knob 6		Direction 2
+
+Scope	Propellerhead Software	se.propellerheads.NoteEcho
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 1		On/Off
+Map	Knob 1		Velocity
+Map	Knob 2		Step Length Free
+Map	Knob 3		Step Length Synced
+Map	Button 2		Tempo Sync
+Map	Knob 4		Repeats
+Map	Knob 5		Pitch
+
+Scope	Propellerhead Software	se.propellerheads.ScalesAndChords
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+Map	Button 1		On/Off
+Map	Button 2		Chords
+Map	Button 3		Filter Notes
+Map	Button 4		Open Chords
+Map	Button 5		Add Octave Up
+Map	Button 6		Add Color
+Map	Knob 1		Key
+Map	Knob 2		Scale
+Map	Knob 3		Notes
+Map	Knob 4		Inversion
