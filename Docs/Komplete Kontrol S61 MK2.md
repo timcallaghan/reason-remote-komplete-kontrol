@@ -2,19 +2,19 @@
 
 ## Background
 
-By default Propellerhead's Reason 10 only supports basic MIDI functionality for Native Instruments Komplete Kontrol keyboards. You can play notes, use the pitch/mod wheel and other standard MIDI functionality.
+By default Propellerhead's Reason 10+ only supports basic MIDI functionality for Native Instruments Komplete Kontrol keyboards. You can play notes, use the pitch/mod wheel and other standard MIDI functionality.
 
 If you want to control device parameters using the knobs/buttons on the keyboard you have to setup custom Remote Override Mappings. However even when doing this you essentially lock a specific hardware control to a device control which severely limits the number of device parameters you can control from hardware.
 
 The Komplete Kontrol S61 Mk2 keyboard has 8 buttons and 8 knobs positioned above and below the two display screens respectively. It is possible to extend this model by defining custom MIDI templates with up to 4 pages of controls, however the factory default setup is a MIDI template with 8 buttons and 2 pages of knobs for a total of 16 assignable knobs. To make this Remote mapping useful out-of-the-box it is assumed that the keyboard is using the default factory MIDI template.
 
-Since many of the Reason 10 devices contain dozens of buttons/faders/knobs only a hand-picked selection of the software device control parameters have been mapped.  The aim was to map the most commonly used functions (e.g. filter frequency and resonsnce).
+Since many of the Reason devices contain dozens of buttons/faders/knobs only a hand-picked selection of the software device control parameters have been mapped.  The aim was to map the most commonly used functions (e.g. filter frequency and resonance).
 
 All mapping is 2-way which means that switching between devices in the rack causes the hardware keyboard buttons and knobs to update their values.  This is particulary useful as it avoids jumps in control values for the buttons/knobs when switching between devices.
 
 ## How to install on Windows
 
-Before starting, ensure all instances of Reason 10 are closed.
+Before starting, ensure all instances of Reason are closed.
 
 ### Installing codec files
 
@@ -43,9 +43,9 @@ You need to copy the following files into the above folder (might require Admini
 
 * [Komplete Kontrol S61 MK2.remotemap](../Maps/Native%20Instruments/Komplete%20Kontrol%20S61%20MK2.remotemap)
 
-### Setup in Reason 10
+### Setup in Reason 10+
 
-1. Start Reason 10
+1. Start Reason
 2. Go to `Edit->Preferences->Control Surfaces`
 3. Click `Add manually`
 4. For Manufacturer select `Native Instruments`
