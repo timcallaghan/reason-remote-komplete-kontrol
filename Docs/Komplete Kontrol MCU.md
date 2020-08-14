@@ -2,7 +2,7 @@
 
 ## Background
 
-By default Propellerhead's Reason 10 does not support transport control when a Native Instruments Komplete Kontrol keyboard is connected. This means that pressing the hardware button on the physical keyboard for things like Play/Rec/Stop/Loop doesn't change the corresponding state in Reason 10.
+By default Propellerhead's Reason 10+ does not support transport control when a Native Instruments Komplete Kontrol mk2 keyboard is connected. This means that pressing the hardware button on the physical keyboard for things like Play/Rec/Stop/Loop doesn't change the corresponding state in Reason.
 
 In June 2019 Native Instruments updated their S-Series Mk2, A-Series, and M32 keyboards to support basic MCU functionality via a firmware patch associated with Komplete Kontrol software release v2.1.3.  The included MCU functionality allows some of Reason's transport controls to be controlled from the hardware keyboard buttons.  Currently the MCU functionality is limited to sending MIDI signals for:
 
@@ -12,11 +12,11 @@ In June 2019 Native Instruments updated their S-Series Mk2, A-Series, and M32 ke
 * LOOP
 * 4-Directional Push Encoder - Up/Down/Left/Right + Rotate deltas
 
-This guide explains how to add Komplete Kontrol as a Control Surface in Reason 10 so that the above hardware buttons change the corresponding state in Reason's transport.
+This guide explains how to add Komplete Kontrol as a Control Surface in Reason so that the above hardware buttons change the corresponding state in Reason's transport.
 
 ## How to install on Windows
 
-Before starting, ensure all instances of Reason 10 are closed.
+Before starting, ensure all instances of Reason are closed.
 
 ### Installing codec files
 
@@ -45,9 +45,9 @@ You need to copy the following files into the above folder (might require Admini
 
 * [Komplete Kontrol MCU.remotemap](../Maps/Native%20Instruments/Komplete%20Kontrol%20MCU.remotemap)
 
-### Setup in Reason 10
+### Setup in Reason 10+
 
-1. Start Reason 10
+1. Start Reason
 2. Go to `Edit->Preferences->Control Surfaces`
 3. Click `Add manually`
 4. For Manufacturer select `Native Instruments`
