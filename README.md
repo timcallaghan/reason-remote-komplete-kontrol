@@ -1,16 +1,16 @@
 # reason-remote-komplete-kontrol
-Contains Propellerhead Reason 10 Remote codec and map files for Native Instruments Komplete Kontrol keyboards.
+Contains Propellerhead Reason 10+ Remote codec and map files for Native Instruments Komplete Kontrol mk2 keyboards.
 
 ## Overview
 
-This repository contains Reason 10 Remote files for adding:
+This repository contains Reason 10+ Remote files for adding:
 
-* Komplete Kontrol MCU as a Control Surface in Reason 10 - for controlling the Reason 10 transport
-* Komplete Kontrol S61 Mk2 as a Control Surface in Reason 10 - for keyboard input and default 2-way mapping between Reason 10 stock devices and the knobs/buttons on the Komplete Kontrol
+* Komplete Kontrol MCU as a Control Surface in Reason - for controlling the Reason 10 transport
+* Komplete Kontrol S61 Mk2 as a Control Surface in Reason - for keyboard input and default 2-way mapping between many Reason stock devices and the knobs/buttons on the Komplete Kontrol
 
 ## Which keyboards is this for?
 
-This has only been tested on Windows 10 running Reason 10 and using a Komplete Kontrol S61 Mk2 keyboard. It will likely also work with the S49 Mk2 and S88 Mk2 keyboards. Support for the A-Series and M32 keyboards is completely untested however the MCU Remote map should work provided Native Instruments have implemented the functionality consistently across these keyboards.
+This has only been tested on Windows 10 running Reason 10/11 and using a Komplete Kontrol S61 Mk2 keyboard. It will likely also work with the S49 Mk2 and S88 Mk2 keyboards. Support for the A-Series and M32 keyboards is completely untested however the MCU Remote map should work provided Native Instruments have implemented the functionality consistently across these keyboards.
 
 ## How do I use it?
 
