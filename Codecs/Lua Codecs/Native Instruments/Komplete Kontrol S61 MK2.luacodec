@@ -7,6 +7,7 @@ function remote_supported_control_surfaces()
 				source="Komplete Kontrol S61 MK2.lua", picture="Komplete Kontrol S61 MK2.png",
 				in_ports={{description="Input"}}, 
 				out_ports={{description="Output"}},
+				has_keyboard=true,
 				setup_info_text="To use Komplete Kontrol S61 MK2 with Remote ensure you choose KOMPLETE KONTROL - 1 for MIDI in/out." },
 		}
 	return surfaces
