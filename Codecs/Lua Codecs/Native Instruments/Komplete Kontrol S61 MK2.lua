@@ -22,14 +22,14 @@ function remote_init(manufacturer, model)
 		{name="Knob 14", input="value", min=0, max=127, output="value"},
 		{name="Knob 15", input="value", min=0, max=127, output="value"},
 		{name="Knob 16", input="value", min=0, max=127, output="value"},
-		{name="Button 1", input="value", min=0, max=127, output="value"},
-		{name="Button 2", input="value", min=0, max=127, output="value"},
-		{name="Button 3", input="value", min=0, max=127, output="value"},
-		{name="Button 4", input="value", min=0, max=127, output="value"},
-		{name="Button 5", input="value", min=0, max=127, output="value"},
-		{name="Button 6", input="value", min=0, max=127, output="value"},
-		{name="Button 7", input="value", min=0, max=127, output="value"},
-		{name="Button 8", input="value", min=0, max=127, output="value"},
+		{name="Button 1", input="button", output="value"},
+		{name="Button 2", input="button", output="value"},
+		{name="Button 3", input="button", output="value"},
+		{name="Button 4", input="button", output="value"},
+		{name="Button 5", input="button", output="value"},
+		{name="Button 6", input="button", output="value"},
+		{name="Button 7", input="button", output="value"},
+		{name="Button 8", input="button", output="value"},
 	}
 	remote.define_items(items)
 
