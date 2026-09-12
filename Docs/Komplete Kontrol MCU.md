@@ -2,7 +2,7 @@
 
 ## Background
 
-By default Propellerhead's Reason 10+ does not support transport control when a Native Instruments Komplete Kontrol mk2 keyboard is connected. This means that pressing the hardware button on the physical keyboard for things like Play/Rec/Stop/Loop doesn't change the corresponding state in Reason.
+By default Reason Studios' Reason does not support transport control when a Native Instruments Komplete Kontrol mk2 keyboard is connected. This means that pressing the hardware button on the physical keyboard for things like Play/Rec/Stop/Loop doesn't change the corresponding state in Reason.
 
 In June 2019 Native Instruments updated their S-Series Mk2, A-Series, and M32 keyboards to support basic MCU functionality via a firmware patch associated with Komplete Kontrol software release v2.1.3.  The included MCU functionality allows some of Reason's transport controls to be controlled from the hardware keyboard buttons.  Currently the MCU functionality is limited to sending MIDI signals for:
 
@@ -14,19 +14,29 @@ In June 2019 Native Instruments updated their S-Series Mk2, A-Series, and M32 ke
 
 This guide explains how to add Komplete Kontrol as a Control Surface in Reason so that the above hardware buttons change the corresponding state in Reason's transport.
 
-## How to install on Windows
+## How to install
 
-Before starting, ensure all instances of Reason are closed.
+Before starting, ensure:
+
+- All instances of Reason are closed
+- [Download the latest files](https://github.com/timcallaghan/reason-remote-komplete-kontrol/archive/refs/heads/master.zip) - this will download this entire respository as a zip file, which you then need to extract locally
+
+For Windows, the following paths are relevant:
+
+- Codec files path `C:\ProgramData\Propellerhead Software\Remote\Codecs\Lua Codecs\Native Instruments`
+- Map files path `C:\ProgramData\Propellerhead Software\Remote\Maps\Native Instruments`
+
+For MacOS, the following paths are relevant:
+
+- Codec files path `~/Library/Application Support/Propellerhead Software/Remote/Codecs/Lua Codecs/Native Instruments`
+- Map files path `~/Library/Application Support/Propellerhead Software/Remote/Maps/Native Instruments`
+
+Ensure the above folders exist (if they don't, create then _exactly_ as named above).
 
 ### Installing codec files
 
-Reason Control Surface Remote _**codec**_ files for Native Instruments devices are located at
 
-```
-C:\ProgramData\Propellerhead Software\Remote\Codecs\Lua Codecs\Native Instruments
-```
-
-You need to copy the following files into the above folder (might require Administrator privileges)
+You need to copy the following files into the **codec** files path (might require Administrator privileges)
 
 * [Komplete Kontrol MCU.lua](../Codecs/Lua%20Codecs/Native%20Instruments/Komplete%20Kontrol%20MCU.lua)
 * [Komplete Kontrol MCU.luacodec](../Codecs/Lua%20Codecs/Native%20Instruments/Komplete%20Kontrol%20MCU.luacodec)
@@ -35,17 +45,11 @@ You need to copy the following files into the above folder (might require Admini
 
 ### Installing mapping files
 
-Reason Control Suface Remote _**mapping**_ files for Native Instruments devices are located at
-
-```
-C:\ProgramData\Propellerhead Software\Remote\Maps\Native Instruments
-```
-
-You need to copy the following files into the above folder (might require Administrator privileges)
+You need to copy the following files into the **map** files path (might require Administrator privileges)
 
 * [Komplete Kontrol MCU.remotemap](../Maps/Native%20Instruments/Komplete%20Kontrol%20MCU.remotemap)
 
-### Setup in Reason 10+
+### Setup in Reason
 
 1. Start Reason
 2. Go to `Edit->Preferences->Control Surfaces`

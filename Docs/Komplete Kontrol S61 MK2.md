@@ -2,7 +2,7 @@
 
 ## Background
 
-By default Propellerhead's Reason 10+ only supports basic MIDI functionality for Native Instruments Komplete Kontrol keyboards. You can play notes, use the pitch/mod wheel and other standard MIDI functionality.
+By default Reason Studios' Reason only supports basic MIDI functionality for Native Instruments Komplete Kontrol keyboards. You can play notes, use the pitch/mod wheel and other standard MIDI functionality.
 
 If you want to control device parameters using the knobs/buttons on the keyboard you have to setup custom Remote Override Mappings. However even when doing this you essentially lock a specific hardware control to a device control which severely limits the number of device parameters you can control from hardware.
 
@@ -14,17 +14,26 @@ All mapping is 2-way which means that switching between devices in the rack caus
 
 ## How to install on Windows
 
-Before starting, ensure all instances of Reason are closed.
+Before starting, ensure:
+
+- All instances of Reason are closed
+- [Download the latest files](https://github.com/timcallaghan/reason-remote-komplete-kontrol/archive/refs/heads/master.zip) - this will download this entire respository as a zip file, which you then need to extract locally
+
+For Windows, the following paths are relevant:
+
+- Codec files path `C:\ProgramData\Propellerhead Software\Remote\Codecs\Lua Codecs\Native Instruments`
+- Map files path `C:\ProgramData\Propellerhead Software\Remote\Maps\Native Instruments`
+
+For MacOS, the following paths are relevant:
+
+- Codec files path `~/Library/Application Support/Propellerhead Software/Remote/Codecs/Lua Codecs/Native Instruments`
+- Map files path `~/Library/Application Support/Propellerhead Software/Remote/Maps/Native Instruments`
+
+Ensure the above folders exist (if they don't, create then _exactly_ as named above).
 
 ### Installing codec files
 
-Reason Control Surface Remote _**codec**_ files for Native Instruments devices are located at
-
-```
-C:\ProgramData\Propellerhead Software\Remote\Codecs\Lua Codecs\Native Instruments
-```
-
-You need to copy the following files into the above folder (might require Administrator privileges)
+You need to copy the following files into the **codec** files path (might require Administrator privileges)
 
 * [Komplete Kontrol S61 MK2.lua](../Codecs/Lua%20Codecs/Native%20Instruments/Komplete%20Kontrol%20S61%20MK2.lua)
 * [Komplete Kontrol S61 MK2.luacodec](../Codecs/Lua%20Codecs/Native%20Instruments/Komplete%20Kontrol%20S61%20MK2.luacodec)
@@ -33,27 +42,26 @@ You need to copy the following files into the above folder (might require Admini
 
 ### Installing mapping files
 
-Reason Control Suface Remote _**mapping**_ files for Native Instruments devices are located at
-
-```
-C:\ProgramData\Propellerhead Software\Remote\Maps\Native Instruments
-```
-
-You need to copy the following files into the above folder (might require Administrator privileges)
+You need to copy the following files into the **map** files path (might require Administrator privileges)
 
 * [Komplete Kontrol S61 MK2.remotemap](../Maps/Native%20Instruments/Komplete%20Kontrol%20S61%20MK2.remotemap)
 
-### Setup in Reason 10+
+### Setup in Reason
+
+In the following you need to select MIDI input/output ports. These are named differently depending on the operating system and driver
+
+- On Windows the port is called `KOMPLETE KONTROL - 1`
+- On MacOS the port is called `KOMPLETE KONTROL S61 MK2 Port 1`
 
 1. Start Reason
 2. Go to `Edit->Preferences->Control Surfaces`
 3. Click `Add manually`
 4. For Manufacturer select `Native Instruments`
 5. For Model select `Komplete Kontrol S61 MK2`
-6. Under Input select `KOMPLETE KONTROL - 1`
-7. Under Output select `KOMPLETE KONTROL - 1`
+6. Under Input select either `KOMPLETE KONTROL - 1` (Windows) or `KOMPLETE KONTROL S61 MK2 Port 1` (MacOS)
+7. Under Output select either `KOMPLETE KONTROL - 1` (Windows) or `KOMPLETE KONTROL S61 MK2 Port 1` (MacOS)
 8. Click `OK`
-9. Ensure the Control Surface is added and has a green tick next to it
+9. Ensure the Control Surface is added and has a green tick next to it (enabled) - also make it the master keyboard if you want this behaviour
 10. Close the Preferences dialog
 
 ## How to use

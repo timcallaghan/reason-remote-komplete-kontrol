@@ -1,20 +1,22 @@
 # reason-remote-komplete-kontrol
-Contains Propellerhead Reason 10+ Remote codec and map files for Native Instruments Komplete Kontrol mk2 keyboards.
+Contains Reason Studios Reason Remote codec and map files for Native Instruments Komplete Kontrol mk2 keyboards.
 
 ## Overview
 
-This repository contains Reason 10+ Remote files for adding:
+This repository contains Reason Remote files for adding:
 
-* Komplete Kontrol MCU as a Control Surface in Reason - for controlling the Reason 10 transport
+* Komplete Kontrol MCU as a Control Surface in Reason - for controlling the Reason transport
 * Komplete Kontrol S61 Mk2 as a Control Surface in Reason - for keyboard input and default 2-way mapping between many Reason stock devices and the knobs/buttons on the Komplete Kontrol
 
 ## Which keyboards is this for?
 
-This has only been tested on Windows 10 running Reason 10/11 and using a Komplete Kontrol S61 Mk2 keyboard. It will likely also work with the S49 Mk2 and S88 Mk2 keyboards. Support for the A-Series and M32 keyboards is completely untested however the MCU Remote map should work provided Native Instruments have implemented the functionality consistently across these keyboards.
+This has been tested on Windows 10/11 and MacOS Tahoe running Reason 10/11/13 and using a Komplete Kontrol S61 Mk2 keyboard. It will likely also work with the S49 Mk2 and S88 Mk2 keyboards. Support for the A-Series and M32 keyboards is completely untested however the MCU Remote map should work provided Native Instruments have implemented the functionality consistently across these keyboards.
 
 ## How do I use it?
 
 The installation process involves copying the Remote map and codec files to the correct file system location and then manually adding a Control Surface via Reason's Preferences dialog.
+
+Before installing, make sure you [download the latest files](https://github.com/timcallaghan/reason-remote-komplete-kontrol/archive/refs/heads/master.zip) - this will download this entire respository as a zip file, which you then need to extract locally.
 
 For detailed installation instructions see:
 
@@ -29,6 +31,6 @@ Note that due to the nature of MIDI control surface mapping many of the decision
 
 ## Disclaimer
 
-This is an unofficial Remote mapping which has not been endorsed by Propellerhead or Native Instruments.
+This is an unofficial Remote mapping which has not been endorsed by Reason Studios or Native Instruments.
 
 All product and company names are trademarks™ or registered® trademarks of their respective holders. Use of them does not imply any affiliation with or endorsement by them.
